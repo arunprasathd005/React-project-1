@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage';
 import MenuPage from './pages/MenuPage';
 import CartPage from './pages/CartPage';
 import CheckoutPage from './pages/CheckoutPage';
-import AboutPage from './pages/AboutPage'; // Make sure this matches your file name
+import AboutPage from './pages/AboutPage'; 
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/cart" element={<CartPage />} />
         <Route path="/checkout" element={<CheckoutPage />} />
-        <Route path="/about" element={<AboutPage />} /> {/* Make sure this matches your route path */}
+        <Route path="/about" element={<AboutPage />} /> 
       </Routes>
     </BrowserRouter>
   );
